@@ -1,10 +1,8 @@
-import { Hero } from "@/components/Hero";
 import { ProjectGrid } from "@/components/ProjectGrid";
 
-export default function Home() {
+export default function WorkPage() {
   return (
     <main>
-      <Hero />
       <ProjectGrid projects={[]} />
     </main>
   );
